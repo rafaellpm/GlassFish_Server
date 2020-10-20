@@ -35,6 +35,7 @@ object Form1: TForm1
     Caption = '1 - Download'
     TabOrder = 0
     TabStop = False
+    WordWrap = True
     OnClick = Button1Click
   end
   object Edit1: TEdit
@@ -42,6 +43,7 @@ object Form1: TForm1
     Top = 88
     Width = 465
     Height = 21
+    TabStop = False
     TabOrder = 1
     Text = 
       'https://www.sistemaquantum.com.br/siteapp/ftp/quantum/QuantumWeb' +
@@ -54,6 +56,7 @@ object Form1: TForm1
     Height = 81
     Caption = '2 - UnDeploy'
     TabOrder = 2
+    TabStop = False
     OnClick = Button2Click
   end
   object Button3: TButton
@@ -63,6 +66,7 @@ object Form1: TForm1
     Height = 81
     Caption = '3 - Deploy'
     TabOrder = 3
+    TabStop = False
     OnClick = Button3Click
   end
 end
